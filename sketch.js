@@ -156,11 +156,11 @@ function draw() {
     fill(100, 100);
 
     // ROW 0
-    rect(0, height - grid, width - 1, grid - 1);
+    rect(0, height - grid, width, grid - 1);
 
     // ROAD
     fill(100);
-    rect(0, height - grid * 5 - 1, width - 1, grid * 4 + 1);
+    rect(0, height - grid * 5 - 1, width, grid * 4 + 1);
     fill(255, 255, 0);
     for (let j = 0; j<3; j++) {
     	for (let i = 0; i < 6; i++) {
