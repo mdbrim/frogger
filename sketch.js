@@ -72,7 +72,7 @@ function setup() {
 
   	button = createButton('Play Again');
   	button.parent('sketch-holder');
-  	button.position(width/2 - 13, height/2 + 10);
+  	button.position(width/2 - 23, height/2 + 10);
   	button.mousePressed(resetGame);
   	button.hide();
     
