@@ -8,7 +8,7 @@ class Home extends Rectangle {
     show(){
         noStroke();
         fill(255, 0, 0);
-        rect(this.x-29, this.y, this.width+34, this.height);
+        rect(this.x-29, this.y, this.width+35, this.height);
         stroke(1);
     }
 
